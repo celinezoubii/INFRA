@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "environmentType": {
+            "value": "nonprod"
+        },
+        "postgreSQLServerName": {
+            "value": "jseijas-dbsrv-dev"
+        },
+        "postgreSQLDatabaseName": {
+            "value": "jseijas-db-dev"
+        },
+        "appServicePlanName": {
+            "value": "jseijas-asp-dev"
+        },
+        "appServiceAPIAppName": {
+            "value": "jseijas-be-dev"
+        },
+        "appServiceAppName": {
+            "value": "jseijas-fe-dev"
+        },
+        "location": {
+            "value": "North Europe"
+        }
+    }
+}
